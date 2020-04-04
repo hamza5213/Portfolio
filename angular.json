@@ -25,12 +25,25 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/theme_styles"
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/theme_styles/js/jquery-3.3.1.min.js",
+              "src/theme_styles/js/greensock.js",
+              "src/theme_styles/js/layerslider.transitions.js",
+              "src/theme_styles/js/layerslider.kreaturamedia.jquery.js",
+              "src/theme_styles/js/popper-1.14.3.min.js",
+              "src/theme_styles/js/bootstrap-4.3.1.min.js",
+              "src/theme_styles/js/fontawesome-all-5.9.0.min.js",
+              "src/theme_styles/js/jquery.fancybox.min.js",
+              "src/theme_styles/js/wow.js",
+              "src/theme_styles/js/mixitup.min.js",
+              
+            ]
           },
           "configurations": {
             "production": {
