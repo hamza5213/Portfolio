@@ -42,6 +42,8 @@
               "src/theme_styles/js/jquery.fancybox.min.js",
               "src/theme_styles/js/wow.js",
               "src/theme_styles/js/mixitup.min.js",
+              "./node_modules/wowjs/dist/wow.min.js",
+              "./node_modules/owl.carousel/dist/owl.carousel.js"
               
             ]
           },
