@@ -10,10 +10,12 @@ import { ServicesCountsComponent } from './our-services/services-counts/services
 import { NgwWowModule } from 'ngx-wow';
 import { ProjectsComponent } from './projects/projects.component';
 import { UspComponent } from './usp/usp.component';
+import { ContactComponent } from './contact/contact.component';
+import { PostsComponent } from './posts/posts.component';
 
 
 @NgModule({
-  declarations: [HomeComponent, SliderComponent, SummaryComponent, PitchComponent, OurServicesComponent, ServicesCountsComponent, ProjectsComponent, UspComponent],
+  declarations: [HomeComponent, SliderComponent, SummaryComponent, PitchComponent, OurServicesComponent, ServicesCountsComponent, ProjectsComponent, UspComponent, ContactComponent, PostsComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
