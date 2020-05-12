@@ -26,7 +26,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/theme_styles"
+              "src/theme_styles",
+              "src/assets/fav.png"
             ],
             "styles": [
               "src/styles.scss"
@@ -45,7 +46,6 @@
               "src/theme_styles/js/custom.js",
               "./node_modules/wowjs/dist/wow.min.js",
               "./node_modules/owl.carousel/dist/owl.carousel.js"
-              
             ]
           },
           "configurations": {
@@ -138,8 +138,13 @@
               "devServerTarget": "Portfolio:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Portfolio"
 }

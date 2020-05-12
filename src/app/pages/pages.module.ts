@@ -1,3 +1,4 @@
+import { InformationModule } from './information/information.module';
 import { MenuBarComponent } from './main-layout/menu-bar/menu-bar.component';
 import { HomeModule } from './home/home.module';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,8 @@ import { CopyrightsComponent } from './main-layout/footer/copyrights/copyrights.
   imports: [
     CommonModule,
     PagesRoutingModule,
-    HomeModule
+    HomeModule,
+    InformationModule
   ]
 })
 export class PagesModule { }

@@ -1,0 +1,14 @@
+<div class="item d-table w-100 mb-5">
+    <img [src]="imgUrl" alt="Image not found!" [ngStyle]="{'float': (index%2==0) ? 'right' : 'left'}">
+    <div class="case-absolute bg-white px-4 py-5" [ngClass]="{'case_left': index%2==0, 'case_right':index%2!=0 }">
+        <h4 class="down-line mb-30">{{title}}</h4>
+        <p>{{description}}</p>
+        <a *ngIf="siteUrl!=null" [href]="siteUrl" class="btn-link text-primary">Visit</a>
+        <!-- <div class="post-admin mt-4">
+            <ul>
+                <li><span>Post On:</span> 12th March 2019</li>
+                <li><span>Story By:</span> Jason Holder</li>
+            </ul>
+        </div> -->
+    </div>
+</div>
